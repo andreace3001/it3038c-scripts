@@ -38,4 +38,7 @@ It should
 
 The output is what I expected based on the documentation (+5)
 
-First page should be named: "Project 1" at the top, should have a sentance that say
+First page should be named: "Project 1" at the top, should have a sentance that says "Hello! Welcome to my Project 1 site!" below that should be a link to another page. The link should say "View what my project does/says!"
+
+Once you click that link, the page should show: "Hi, Welcome to my project 1". At the top, the page should be named "My Project 1"
+
