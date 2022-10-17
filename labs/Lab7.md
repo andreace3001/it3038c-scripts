@@ -1,7 +1,10 @@
 Here are the steps I did to create Lab 7:
 
 ```virtualenv ~/venv/webscraping/Scripts/activate.ps1```
+
+
 ```pip install pillow```
+
 ```python```
 
 ```from PIL import Image,ImageFilter```
