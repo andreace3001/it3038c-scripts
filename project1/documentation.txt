@@ -1,0 +1,44 @@
+Is the goal of the script clear? (+5)
+
+The goal of the script is something similar to Lab 6. When running the script, the usere will view a page with a link to another page.
+The link to the other page will then redirect the user to a new page to see the output of the script. The script's output wil just say something like "hi, welcome to my project 1".
+
+--------------
+
+Is the documentation on how to run the script clear? (+5)
+
+How to run the script: 
+1. Open powershell and change into the project 1 folder. For me, it was something like: 
+
+PS C:\Users\Administrator\it3038c-scripts\project1>
+
+2. Once im in this location, open vscode and create a few files:
+
+    - file named project1.js
+    - a folder named Public
+        -inside that folder a file named index.html
+3. after putting appropiate code within the two files i am going to save both files. 
+4. Back in powershell, run command "npm install ip"
+5. then run command "node project1.js"
+6. open a browser of your liking then go to "http://localhost:3000/" and you should see your results.
+
+--------------
+
+Does the script work? (out of 15)
+
+yes
+
+--------------
+
+The script runs the first time (+10), or the second time with minimal tweaking (-5)
+
+It should
+
+--------------
+
+The output is what I expected based on the documentation (+5)
+
+First page should be named: "Project 1" at the top, should have a sentance that says "Hello! Welcome to my Project 1 site!" below that should be a link to another page. The link should say "View what my project does/says!"
+
+Once you click that link, the page should show: "Hi, Welcome to my project 1". At the top, the page should be named "My Project 1"
+
