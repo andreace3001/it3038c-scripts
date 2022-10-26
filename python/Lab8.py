@@ -10,3 +10,5 @@ title = span.text
 span = soup.find("div", {"class":"product-price css-11s12ax is--current-price css-tpaepq"})
 price = span.text
 print("Item %s has price %s" % (title, price))
+
+
