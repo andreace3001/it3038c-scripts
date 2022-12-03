@@ -14,7 +14,7 @@ For this project I used FastApi and Uvicorn.
 
           Make sure you are in the same location as the project before running that command
 
-6. More than likely once you run the project, to view the code you can go to http://127.0.0.1:8000/chores/
+6. More than likely once you run the project, to view the list of chores, you can go to http://127.0.0.1:8000/chores/
 7. To add more chores and delete the chores you can go to the document page that FastApi provides, the url is 
      http://127.0.0.1:8000/docs
 
