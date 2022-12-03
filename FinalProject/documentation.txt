@@ -1,0 +1,30 @@
+For this project I used FastApi and Uvicorn. 
+
+1. install fastapi and uvicorn
+  https://fastapi.tiangolo.com/
+
+2. create a http get request that would get a string "Hello World" to make sure that the project is working
+
+3. Created a file with the chores class with an id, name of the chore, and name of the person doing the chore (both strings)
+
+4. went back to the main.py file and made an http get request, post request and delete request. Allowing the user to get all the data, add more chores, and delete some chores. 
+
+5. To run the code you have to use the command 
+          uvicorn main:app --reload
+
+          Make sure you are in the same location as the project before running that command
+
+6. More than likely once you run the project, to view the code you can go to http://127.0.0.1:8000/chores/
+7. To add more chores and delete the chores you can go to the document page that FastApi provides, the url is 
+     http://127.0.0.1:8000/docs
+
+
+
+
+
+
+I had to use fastapi for work and used this video to help https://www.youtube.com/watch?v=GN6ICac3OXY&t=454s
+  I figured id do something with this api for the project as well.
+
+I had some issues installing uvicorn heres a link that helped me get it sorted:
+https://stackoverflow.com/questions/64936440/python-uvicorn-the-term-uvicorn-is-not-recognized-as-the-name-of-a-cmdlet-f
